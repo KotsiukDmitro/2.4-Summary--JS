@@ -1,0 +1,153 @@
+:root {
+    --blue: rgb(58, 58, 185);
+    --red: rgb(185, 58, 71);
+    --yellow: rgb(176, 170, 42);
+    --green: rgb(81, 192, 192);
+}
+
+html,
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+.main-page {
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.container {
+    background-color: rgb(230, 227, 227);
+    width: 90%;
+    max-width: 1500px;
+    border-radius: 10px;
+    color: rgb(152, 126, 126);
+    font-size: 30px;
+
+}
+
+.container-header {
+    border-bottom: 1px solid rgb(81, 192, 192);
+    background-color: rgb(215, 198, 198);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+
+}
+
+.form {
+    padding: 20px;
+}
+
+.form-group {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form-label {
+    font-weight: bold;
+    color: var(--green);
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.form-input {
+    border: 1px solid silver;
+    border-radius: 3px;
+    height: 30px;
+    margin: 20px;
+    margin-top: 3px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.text-error {
+    color: red;
+    font-size: 16px;
+    padding-left: 20px;
+    margin-top: -20px;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.invalid {
+    border: 2px dashed red;
+}
+
+.form-input-file {
+    border: none;
+    padding-left: 1px;
+}
+
+.form-textarea {
+    border: 1px solid silver;
+    border-radius: 3px;
+    margin: 20px;
+    margin-top: 3px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.container-footer {
+    border-top: 1px solid rgb(81, 192, 192);
+    background-color: rgb(206, 175, 175);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.form-button {
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: inline;
+    color: antiquewhite;
+    background-color: rgb(81, 192, 192);
+    height: 50px;
+    width: 150px;
+}
+
+.number {
+    background-color: rgb(210, 24, 24);
+    color: rgb(243, 235, 235);
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.form-slider {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.form-slider .form-input {
+    flex: 1;
+    margin-bottom: 0;
+}
